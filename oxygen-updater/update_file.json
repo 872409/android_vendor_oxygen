@@ -1,0 +1,17 @@
+{
+    "MirrorList": [
+        "http://oban.ineige.org/oxygen/"
+    ],
+    "UpdateList": [
+    {   
+            "mod": "Oxygen",
+            "board": "bravo",
+            "type": "rom",
+            "name": "Oxygen-1.0",
+            "version": "1.0",
+            "description": "Press *Menu* and then *Changelog* to view the CHANGELOG!",
+            "branch": "S",
+            "filename": "update-oxygen-1.0-signed.zip"
+        }
+    ]
+}
