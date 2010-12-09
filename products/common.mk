@@ -52,6 +52,7 @@ ifdef OXYGEN_WITH_GOOGLE
         vendor/oxygen/proprietary/GoogleCalendarSyncAdapter.apk:./system/app/GoogleCalendarSyncAdapter.apk \
         vendor/oxygen/proprietary/GoogleContactsSyncAdapter.apk:./system/app/GoogleContactsSyncAdapter.apk \
         vendor/oxygen/proprietary/GoogleServicesFramework.apk:./system/app/GoogleServicesFramework.apk \
+        vendor/oxygen/proprietary/GoogleQuickSearchBox.apk:./system/app/GoogleQuickSearchBox.apk \
         vendor/oxygen/proprietary/LatinImeTutorial.apk:./system/app/LatinImeTutorial.apk \
         vendor/oxygen/proprietary/Maps.apk:./system/app/Maps.apk \
         vendor/oxygen/proprietary/MarketUpdater.apk:./system/app/MarketUpdater.apk \
