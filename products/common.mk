@@ -71,10 +71,8 @@ ifdef OXYGEN_WITH_THEME
 	PRODUCT_PACKAGE_OVERLAYS += vendor/oxygen/theme
 endif
 
-PRODUCT_PACKAGES += \
-    Superuser
-
 PRODUCT_COPY_FILES += \
+    vendor/oxygen/misc/Superuser.apk:./system/app/Superuser.apk \
     vendor/oxygen/misc/ZeamLauncher.apk:./system/app/ZeamLauncher.apk \
     vendor/oxygen/misc/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/oxygen/misc/LatinIME.apk:system/app/LatinIME.apk
