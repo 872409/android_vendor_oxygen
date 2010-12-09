@@ -42,9 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/oxygen/prebuilt/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
     vendor/oxygen/prebuilt/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown
 
-PRODUCT_COPY_FILES += \
-    vendor/oxygen/proprietary/ZeamLauncher.apk:./system/app/ZeamLauncher.apk
-
 ifdef OXYGEN_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
         vendor/oxygen/proprietary/com.google.android.maps.jar:./system/framework/com.google.android.maps.jar \
@@ -78,5 +75,6 @@ PRODUCT_PACKAGES += \
     Superuser
 
 PRODUCT_COPY_FILES += \
+    vendor/oxygen/misc/ZeamLauncher.apk:./system/app/ZeamLauncher.apk \
     vendor/oxygen/misc/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/oxygen/misc/LatinIME.apk:system/app/LatinIME.apk

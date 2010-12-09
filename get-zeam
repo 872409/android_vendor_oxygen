@@ -1,2 +1,2 @@
-mkdir -p `dirname $0`/proprietary
-curl -o `dirname $0`/proprietary/ZeamLauncher.apk -O http://dl.zeam.org/latest.apk
+mkdir -p `dirname $0`/misc
+curl -o `dirname $0`/misc/ZeamLauncher.apk -O http://dl.zeam.org/latest.apk
